@@ -12,10 +12,16 @@
       Paina
     </button>
   </form>
+
   <form action="/reset" method="POST">
-    <button type="submit">
-      Nollaa
-    </button>
+    <button type="submit">Nollaa</button>
   </form>
+ 
+  <form action="/set" method="POST">
+    <input name="number" type="number" step="1" pattern="\d+" />
+    <button type="submit">Aseta</button>
+  </form>
+
+
 </body>
 </html>
