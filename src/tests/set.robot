@@ -2,6 +2,7 @@
 Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
+Test Setup  Reset Application State
 
 *** Test Cases ***
 When reset button pressed the counter is zero
